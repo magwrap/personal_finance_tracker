@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BCS1D6rgEKS0HUZJwslXqc61hpGaZQrXwDdTqui1KlJUFnM88qoR8ob4gaNCloSI28LXBE9TQxy5KuFllh/nyw==",
+  "success": true,
+  "projectFilePath": "/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/personal_finance_tracker.csproj",
+  "expectedPackageFiles": [
+    "/home/janm23/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.1/microsoft.aspnetcore.app.ref.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

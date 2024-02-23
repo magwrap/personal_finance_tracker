@@ -1,0 +1,14 @@
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/bin/Debug/net8.0/personal_finance_tracker
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/bin/Debug/net8.0/personal_finance_tracker.deps.json
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/bin/Debug/net8.0/personal_finance_tracker.runtimeconfig.json
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/bin/Debug/net8.0/personal_finance_tracker.dll
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/bin/Debug/net8.0/personal_finance_tracker.pdb
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/personal_finance_tracker.GeneratedMSBuildEditorConfig.editorconfig
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/personal_finance_tracker.AssemblyInfoInputs.cache
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/personal_finance_tracker.AssemblyInfo.cs
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/personal_finance_tracker.csproj.CoreCompileInputs.cache
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/personal_finance_tracker.dll
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/refint/personal_finance_tracker.dll
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/personal_finance_tracker.pdb
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/personal_finance_tracker.genruntimeconfig.cache
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/ref/personal_finance_tracker.dll
