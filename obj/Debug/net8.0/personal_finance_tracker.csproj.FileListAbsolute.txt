@@ -12,3 +12,4 @@
 /home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/personal_finance_tracker.pdb
 /home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/personal_finance_tracker.genruntimeconfig.cache
 /home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/ref/personal_finance_tracker.dll
+/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/Debug/net8.0/personal_finance_tracker.sourcelink.json

@@ -1,7 +1,10 @@
-namespace Tracker.Interface;
-
-interface IFinanceStorage
+using Tracker.Finance;
+namespace Tracker.Interface
 {
-    void LoadTransactionData();
-    void SaveTransactionData();
+    interface IFinanceStorage
+    {
+        public List<Transaction> LoadTransactionData();
+        public void SaveTransactionData();
+
+    }
 }
