@@ -71,6 +71,7 @@ namespace Tracker.Finance
             IFinance.ViewTransaction(transaction);
         }
 
+
         void IFinance.ViewTransactions(TransactionCategory? categoryFilter)
         {
             foreach (Transaction transaction in Transactions)
@@ -107,6 +108,23 @@ namespace Tracker.Finance
             {
                 _transactions.Add(transaction);
             }
+        }
+
+        string[] TransactionGuids() {
+            List<string> guids = new();
+            foreach (Transaction transaction in Transactions)
+            {
+                guids.Add(transaction.TransactionId.ToString());
+            }
+            return guids.ToArray();
+        }
+
+
+        public Transaction SelectTransaction() {
+            string[] options = TransactionGuids();
+            int transactionIndex = Utils.GetUserOption(options, "First choose transaction");
+            return Transactions[transactionIndex];
+
         }
 
         void IFinance.ViewFinancialSummary()

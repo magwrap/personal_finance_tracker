@@ -20,7 +20,7 @@ namespace Tracker
             string[] options = new string[] {
                 "1. Add Transaction",
                 "2. View all Transactions",
-                "3. Add category to a transaction",
+                "3. Add/change category to a transaction",
                 "4. Quit and Save."
             };
 
@@ -39,8 +39,7 @@ namespace Tracker
                         ListTransactions();
                         break;
                     case 2:
-                        Console.WriteLine("First choose transaction");
-                        // AskUserToCategorizeTransaction();
+                        AskWhichTransactionToView();
                         break;
                     case 3:
                         Quit();
@@ -85,7 +84,7 @@ namespace Tracker
 
         void AskUserToCategorizeTransaction(Guid transactionId)
         {
-            Console.WriteLine("Do you want to assign a category to this transaction?");
+            Console.WriteLine("Do you want to assign/change the category to this transaction?");
             int option = Utils.GetUserOption(new string[] { "yes", "no" });
             if (option == 0)
             {
@@ -101,6 +100,10 @@ namespace Tracker
 
         void AskWhichTransactionToView()
         {
+            Transaction selected = financeTracker.SelectTransaction();
+            Console.WriteLine("You have selected:");
+            IFinance.ViewTransaction(selected);
+            AskUserToCategorizeTransaction(selected.TransactionId);
 
         }
 

@@ -10,6 +10,7 @@ namespace Tracker.Interface
         void CategorizeTransaction(Guid transactionId, TransactionCategory transactionCategory);
         void ViewFinancialSummary();
         void SaveTransactionData();
+        Transaction SelectTransaction();
         static void ViewTransaction(Transaction transaction)
         {
             Console.WriteLine(@$"
