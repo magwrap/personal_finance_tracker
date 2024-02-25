@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/personal_finance_tracker.csproj": {}
+    "/home/dani/sdu/oop/personal_finance_tracker/personal_finance_tracker.csproj": {}
   },
   "projects": {
-    "/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/personal_finance_tracker.csproj": {
+    "/home/dani/sdu/oop/personal_finance_tracker/personal_finance_tracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/personal_finance_tracker.csproj",
+        "projectUniqueName": "/home/dani/sdu/oop/personal_finance_tracker/personal_finance_tracker.csproj",
         "projectName": "personal_finance_tracker",
-        "projectPath": "/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/personal_finance_tracker.csproj",
-        "packagesPath": "/home/janm23/.nuget/packages/",
-        "outputPath": "/home/janm23/Documents/University/oop/exercises/personal_finance_tracker/obj/",
+        "projectPath": "/home/dani/sdu/oop/personal_finance_tracker/personal_finance_tracker.csproj",
+        "packagesPath": "/home/dani/.nuget/packages/",
+        "outputPath": "/home/dani/sdu/oop/personal_finance_tracker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/janm23/.nuget/NuGet/NuGet.Config"
+          "/home/dani/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -48,18 +48,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.1, 8.0.1]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/gm3ak3vgrx8qik40cnw28056i38hajsb-dotnet-sdk-8.0.100/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

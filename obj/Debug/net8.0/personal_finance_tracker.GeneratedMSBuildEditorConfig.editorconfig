@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = personal_finance_tracker
-build_property.ProjectDir = /home/janm23/Documents/University/oop/exercises/personal_finance_tracker/
+build_property.ProjectDir = /home/dani/sdu/oop/personal_finance_tracker/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

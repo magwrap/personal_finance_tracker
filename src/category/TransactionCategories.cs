@@ -1,5 +1,3 @@
-using Tracker.Interface;
-
 namespace Tracker.Category
 {
     static class TransactionCategories

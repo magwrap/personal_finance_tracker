@@ -12,7 +12,7 @@ namespace Tracker
                 {
                     Console.Write(prompt + " ");
                 }
-                Console.WriteLine("\U000027A4");
+                Console.Write("\U000027A4");
             }
             while (string.IsNullOrEmpty(input = Console.ReadLine()));
 
