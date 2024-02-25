@@ -20,14 +20,13 @@ namespace Tracker
             string[] options = new string[] {
                 "1. Add Transaction",
                 "2. View all Transactions",
-                "3. Add category to a transaction",
+                "3. Add category",
+                "4. View all categories",
                 "4. Quit and Save."
             };
 
             while (true)
             {
-
-
                 int userChoice = Utils.GetUserOption(options, "DASHBOARD");
 
                 switch (userChoice)
@@ -39,10 +38,12 @@ namespace Tracker
                         ListTransactions();
                         break;
                     case 2:
-                        Console.WriteLine("First choose transaction");
-                        // AskUserToCategorizeTransaction();
+                        AskToAddCategory();
                         break;
                     case 3:
+                        TransactionCategories.ViewCategories();
+                        break;
+                    case 4:
                         Quit();
                         return;
                     default:
@@ -97,6 +98,18 @@ namespace Tracker
                 );
             }
 
+        }
+
+        void AskToAddCategory()
+        {
+            Console.WriteLine("Do you want to add new category?");
+            int option = Utils.GetUserOption(new string[] { "yes", "no" });
+            if (option == 0)
+            {
+                string categoryName = Utils.GetInput("Insert a name of category:");
+                TransactionCategory category = new TransactionCategory(categoryName);
+                TransactionCategories.AddCategory(category);
+            }
         }
 
         void AskWhichTransactionToView()
